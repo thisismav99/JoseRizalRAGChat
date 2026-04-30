@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove=".env" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="DotNetEnv" Version="3.2.0" />
     <PackageReference Include="Microsoft.SemanticKernel" Version="1.75.0" />
     <PackageReference Include="Microsoft.SemanticKernel.Connectors.Google" Version="1.75.0-alpha" />
